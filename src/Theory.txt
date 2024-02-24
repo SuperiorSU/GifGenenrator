@@ -1,0 +1,3 @@
+to make an api call, we use axios which gives a json ready data of the api. To use axios first we need to install it {npm i axios}
+
+After creating the Random and Input type component, we see that in bothe components the code/logic for calling tha api is same. To make it less cumbersome{writing the same code twice or more}, we make it as a custom hook. a custom hook is a method that we define on what kind of data/values it will be working on. Since a hook starts with useHookName we need to create the hook like the given convention
